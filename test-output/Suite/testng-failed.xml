@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite configfailurepolicy="continue" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.spp.scripts.Arrears">
+        <methods>
+          <include name="CreateArrearNoOfDaysBankAdvice_SC_535"/>
+          <include name="ComputationDetailsToAnArrearSC540_SC_549"/>
+          <include name="CreateArrearsManualSalaryHeadWiseCash_SC_540"/>
+          <include name="CreateArrearMergesWithSalaryComponentRestrictNegative_SC_519"/>
+          <include name="CreateArrearMergesWithSalaryComponentRestrictNegativePayPart_SC_523"/>
+          <include name="CreateArrearsManualSalaryHeadWiseBankAdvice_SC_542"/>
+          <include name="postCondition"/>
+          <include name="ComputationDetailsToAnArrearSC539_SC_548"/>
+          <include name="ComputationDetailsToAnArrearSC541_SC_550"/>
+          <include name="CreateArrearIndependentOfSalaryInstruments_SC_512"/>
+          <include name="ComputationDetailsToAnArrearSC542_SC_551"/>
+          <include name="CreateArrearInstrumentsRestrictNegativePayPart_SC_531"/>
+          <include name="CreateArrearInstrumentsPayPart_SC_528"/>
+          <include name="CreateArrearMergedWithSalaryComponentInPayPart_SC_521"/>
+          <include name="closeFrameWork"/>
+          <include name="CreateArrearNoOfDaysDifferenceMergedWithSalaryComponent_SC_517"/>
+          <include name="CreateArrearIndependentOfSalaryCashRestrictNegativePayPart_SC_530"/>
+          <include name="initApplication"/>
+          <include name="DeleteComputationDetails_SC_555"/>
+          <include name="CreateArrearsManualLumpsumCash_SC_543"/>
+          <include name="ComputationDetailsToArrear_SC_133"/>
+          <include name="CreateArrearCashPayPart_SC_527"/>
+          <include name="CreateArrearIndependentOfSalaryBankAdvice_SC_513"/>
+          <include name="EditArrear_SC_546"/>
+          <include name="ArrearsManualSalaryHeadWiseAsSalaryComponent_SC_132"/>
+          <include name="CreateArrearIndependentOfSalaryBankAdviceRestrictNegative_SC_526"/>
+          <include name="ComputationDetailsToAnArrearSC543_SC_552"/>
+          <include name="CreateArrearNoOfDaysDifferenceBankAdvice_SC_538"/>
+          <include name="CreateArrearAsSalaryComponentInPayPart_SC_520"/>
+          <include name="CreateArrearsManualSalaryHeadWisInstruments_SC_541"/>
+          <include name="ComputationDetailsToAnArrearSC545_SC_554"/>
+          <include name="CheckArrearsRedirectToMasterModule_SC_502"/>
+          <include name="preCondition"/>
+          <include name="CheckifSalaryArrearsGeneralLinkPaymonthsredirectstoCreateNewPaymonthpage_SC_501"/>
+          <include name="CreateArrearNoOfDaysDifferenceAsSalaryComponent_SC_516"/>
+          <include name="CreateArrearAsSalaryComponentRestrictNegative_SC_518"/>
+          <include name="CreateArrearBankAdvicePayPart_SC_529"/>
+          <include name="CreateArrearNoOfDaysCash_SC_533"/>
+          <include name="CreateArrearNoOfDaysMergedWithSalaryComponent_SC_515"/>
+          <include name="CreateArrearsManualSalaryHeadWiseMergedWithSalaryComponent_SC_539"/>
+          <include name="CreateArrearAsSalaryComponent_SC_509"/>
+          <include name="CreateArrearMergedWithSalaryComponent_SC_510"/>
+          <include name="ComputationDetailsToArrearWithLumpsumType_SC_135"/>
+          <include name="CreateArrearIndependentOfSalaryInstrumentsRestrictNegative_SC_525"/>
+          <include name="initFrameWork"/>
+          <include name="CheckifSalaryArrearsReportsArrearsReportredirectstoReportsmodule_SC_500"/>
+          <include name="CreateArrearIndependentOfSalaryCashRestrictNegative_SC_524"/>
+          <include name="CreateArrearsManualLumpsumInstruments_SC_544"/>
+          <include name="CreateArrearBankAdviceRestrictNegativePayPart_SC_532"/>
+          <include name="CreateArrearAsSalaryComponentRestrictNegativePayPart_SC_522"/>
+          <include name="CreateArrearNoOfDaysDifferenceCash_SC_536"/>
+          <include name="closeBrowser"/>
+          <include name="CreateArrearNoOfDaysDifferenceInstruments_SC_537"/>
+          <include name="CreateArrearNoOfDaysInstruments_SC_534"/>
+          <include name="cleanApplication"/>
+          <include name="CreateArrearNoOfDaysAsSalaryComponent_SC_514"/>
+          <include name="CreateArrearsManualLumpsumBankAdvice_SC_545"/>
+          <include name="DeleteArrear_SC_547"/>
+          <include name="ArrearsManualLumpsumAsSalaryComponent_SC_134"/>
+          <include name="CreateArrearIndependentOfSalaryCash_SC_511"/>
+          <include name="initBrowser"/>
+        </methods>
+      </class> <!-- com.spp.scripts.Arrears -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
